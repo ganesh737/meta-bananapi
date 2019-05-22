@@ -1,0 +1,16 @@
+# POKY_BBLAYERS_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+POKY_BBLAYERS_CONF_VERSION = "2"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  ${HOME}/samba/workspace/bpim1/poky/meta \
+  ${HOME}/samba/workspace/bpim1/poky/meta-poky \
+  ${HOME}/samba/workspace/bpim1/poky/meta-yocto-bsp \
+  ${HOME}/samba/workspace/bpim1/meta-bananapi \
+  ${HOME}/samba/workspace/bpim1/meta-sunxi \
+  ${HOME}/samba/workspace/bpim1/meta-openembedded/meta-oe \
+  ${HOME}/samba/workspace/bpim1/meta-rauc \
+  "
