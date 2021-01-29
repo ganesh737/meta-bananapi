@@ -41,30 +41,30 @@ Create a folder (ex:*bpim1*) and clone the below repositories in it
 
 #### Get meta-bananapi
 ```shell
-git clone -b thud https://github.com/ganesh737/meta-bananapi.git
+git clone -b dunfell https://github.com/ganesh737/meta-bananapi.git
 ```
 
 #### Get meta-sunxi
 ```shell
-git clone -b thud https://github.com/ganesh737/meta-sunxi.git
+git clone -b dunfell https://github.com/ganesh737/meta-sunxi.git
 ```
 Checked with commit id *00fb36d*
 
 #### Get meta-openembedded
 ```shell
-git clone -b thud https://github.com/openembedded/meta-openembedded.git
+git clone -b dunfell https://github.com/openembedded/meta-openembedded.git
 ```
 Checked with commit id *4cd3a39*
 
 #### Get poky
 ```shell
-git clone -b thud https://git.yoctoproject.org/git/poky
+git clone -b dunfell https://git.yoctoproject.org/git/poky
 ```
 Checked with commit id *faeb366*
 
 #### Get meta-rauc
 ```shell
-git clone -b thud https://github.com/rauc/meta-rauc.git
+git clone -b dunfell https://github.com/rauc/meta-rauc.git
 ```
 Checked with commit id *ec81f88*
 
